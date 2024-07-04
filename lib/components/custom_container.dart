@@ -16,25 +16,19 @@ class CustomContainer extends StatelessWidget {
           }),
         );
       },
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 30),
-        child: Container(
-          decoration: BoxDecoration(
-              color: const Color(0xffb08968),
-              borderRadius: BorderRadius.circular(15)),
-          height: 70,
-          width: double.infinity,
-          alignment: Alignment.centerLeft,
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 15),
-            child: Center(
-              child: Text(
-                "$name",
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 25,
-                ),
-              ),
+      child: Container(
+        decoration: BoxDecoration(
+            color: const Color(0xffb08968),
+            borderRadius: BorderRadius.circular(15)),
+        height: 70,
+        width: double.infinity,
+        alignment: Alignment.centerLeft,
+        child: Center(
+          child: Text(
+            "$name",
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 25,
             ),
           ),
         ),

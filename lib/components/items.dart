@@ -13,7 +13,7 @@ class Items extends StatelessWidget {
     return Container(
       height: 105,
       width: double.infinity,
-      color: Color(0xffb08968),
+      color: const Color(0xffb08968),
       child: Row(
         children: [
           Container(
